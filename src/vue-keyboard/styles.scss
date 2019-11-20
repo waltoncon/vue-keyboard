@@ -1,0 +1,26 @@
+.keyboard {
+    background: #ddd;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard-row {
+    background: red;
+    display: flex;
+    flex-direction: row;
+}
+
+.keyboard-key, .keyboard-spacer {
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    //padding: 8px;
+}
+
+.keyboard-spacer {
+    background: transparent;
+}
