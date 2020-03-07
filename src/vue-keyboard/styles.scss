@@ -12,8 +12,10 @@
 }
 
 .keyboard-key, .keyboard-spacer {
-    background: #333;
-    color: #fff;
+    //background: #333;
+    background: #efefef;
+    border: 1px solid #bbbbbb;
+    color: #333;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,4 +25,5 @@
 
 .keyboard-spacer {
     background: transparent;
+    border: none;
 }
